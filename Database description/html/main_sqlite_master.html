@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<table border="1" style="border-collapse:collapse">
+<tr><th>type</th><th>name</th><th>tbl_name</th><th>rootpage</th><th>sql</th></tr>
+<tr><td>table</td><td>alembic_version</td><td>alembic_version</td><td>2</td><td>CREATE TABLE alembic_version (<br/>version_num VARCHAR(32) NOT NULL, <br/>CONSTRAINT alembic_version_pkc PRIMARY KEY (version_num)<br/>)</td></tr>
+<tr><td>index</td><td>sqlite_autoindex_alembic_version_1</td><td>alembic_version</td><td>3</td><td>NULL</td></tr>
+<tr><td>table</td><td>actives</td><td>actives</td><td>4</td><td>CREATE TABLE actives (<br/>id INTEGER NOT NULL, <br/>text VARCHAR(32), <br/>PRIMARY KEY (id)<br/>)</td></tr>
+<tr><td>table</td><td>carousel</td><td>carousel</td><td>5</td><td>CREATE TABLE carousel (<br/>id INTEGER NOT NULL, <br/>name VARCHAR(32), <br/>link VARCHAR(255), <br/>&quot;imagePath&quot; VARCHAR(255), <br/>&quot;publicMsg&quot; VARCHAR(255), <br/>PRIMARY KEY (id)<br/>)</td></tr>
+<tr><td>table</td><td>category</td><td>category</td><td>6</td><td>CREATE TABLE category (<br/>id INTEGER NOT NULL, <br/>category_name VARCHAR(32), <br/>PRIMARY KEY (id)<br/>)</td></tr>
+<tr><td>table</td><td>role</td><td>role</td><td>7</td><td>CREATE TABLE role (<br/>id INTEGER NOT NULL, <br/>name VARCHAR(80), <br/>description VARCHAR(255), <br/>PRIMARY KEY (id), <br/>UNIQUE (name)<br/>)</td></tr>
+<tr><td>index</td><td>sqlite_autoindex_role_1</td><td>role</td><td>8</td><td>NULL</td></tr>
+<tr><td>table</td><td>store</td><td>store</td><td>9</td><td>CREATE TABLE store (<br/>id INTEGER NOT NULL, <br/>&quot;storeName&quot; VARCHAR(32), <br/>&quot;imagePath&quot; VARCHAR(255), <br/>&quot;publicMsg&quot; VARCHAR(255), <br/>&quot;qrCode&quot; BLOB, <br/>email VARCHAR(255), <br/>password VARCHAR(255), <br/>active BOOLEAN, <br/>confirmed_at DATETIME, <br/>PRIMARY KEY (id), <br/>UNIQUE (email), <br/>CHECK (active IN (0, 1))<br/>)</td></tr>
+<tr><td>index</td><td>sqlite_autoindex_store_1</td><td>store</td><td>10</td><td>NULL</td></tr>
+<tr><td>table</td><td>user</td><td>user</td><td>13</td><td>CREATE TABLE user (<br/>id INTEGER NOT NULL, <br/>login_id VARCHAR(32), <br/>password_hash VARCHAR(255), <br/>openid VARCHAR(255), <br/>session_key VARCHAR(255), <br/>gender INTEGER, <br/>province VARCHAR(255), <br/>country VARCHAR(255), <br/>&quot;avatarUrl&quot; VARCHAR(255), <br/>&quot;nickName&quot; VARCHAR(32), <br/>city VARCHAR(32), <br/>language VARCHAR(32), <br/>PRIMARY KEY (id)<br/>)</td></tr>
+<tr><td>table</td><td>coupon</td><td>coupon</td><td>14</td><td>CREATE TABLE coupon (<br/>id INTEGER NOT NULL, <br/>coupon_name VARCHAR(32), <br/>coupon_num INTEGER, <br/>coupon_content TEXT, <br/>&quot;beginTime&quot; DATETIME, <br/>&quot;endTime&quot; DATETIME, <br/>store_id INTEGER, <br/>actives_id INTEGER, <br/>PRIMARY KEY (id), <br/>FOREIGN KEY(actives_id) REFERENCES actives (id), <br/>FOREIGN KEY(store_id) REFERENCES store (id)<br/>)</td></tr>
+<tr><td>table</td><td>dish</td><td>dish</td><td>16</td><td>CREATE TABLE dish (<br/>id INTEGER NOT NULL, <br/>dish_name VARCHAR(32), <br/>dish_price FLOAT, <br/>dish_description VARCHAR(255), <br/>&quot;imagePath&quot; VARCHAR(255), <br/>store_id INTEGER, <br/>category_id INTEGER, <br/>&quot;onSale&quot; BOOLEAN, <br/>PRIMARY KEY (id), <br/>FOREIGN KEY(category_id) REFERENCES category (id), <br/>FOREIGN KEY(store_id) REFERENCES store (id), <br/>CHECK (&quot;onSale&quot; IN (0, 1))<br/>)</td></tr>
+<tr><td>table</td><td>order</td><td>order</td><td>17</td><td>CREATE TABLE &quot;order&quot; (<br/>id INTEGER NOT NULL, <br/>user_id INTEGER, <br/>store_id INTEGER, <br/>order_id VARCHAR(255), <br/>order_amount FLOAT, <br/>order_json TEXT, <br/>user_content VARCHAR(255), <br/>create_time DATETIME, <br/>&quot;payStatus&quot; BOOLEAN, <br/>PRIMARY KEY (id), <br/>FOREIGN KEY(store_id) REFERENCES store (id), <br/>FOREIGN KEY(user_id) REFERENCES user (id), <br/>CHECK (&quot;payStatus&quot; IN (0, 1))<br/>)</td></tr>
+<tr><td>table</td><td>roles_stores</td><td>roles_stores</td><td>19</td><td>CREATE TABLE roles_stores (<br/>store_id INTEGER, <br/>role_id INTEGER, <br/>FOREIGN KEY(role_id) REFERENCES role (id), <br/>FOREIGN KEY(store_id) REFERENCES store (id)<br/>)</td></tr>
+<tr><td>table</td><td>dishOrder</td><td>dishOrder</td><td>20</td><td>CREATE TABLE &quot;dishOrder&quot; (<br/>dish_id INTEGER, <br/>order_id INTEGER, <br/>FOREIGN KEY(dish_id) REFERENCES dish (id), <br/>FOREIGN KEY(order_id) REFERENCES &quot;order&quot; (id)<br/>)</td></tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,11 @@
+UPDATE category SET category_name = '热销🔥' WHERE id = 1;
+UPDATE category SET category_name = '大菜🐷' WHERE id = 2;
+UPDATE category SET category_name = '小菜🍽' WHERE id = 3;
+UPDATE category SET category_name = '饮料🍹' WHERE id = 4;
+UPDATE category SET category_name = '主食🍚' WHERE id = 5;
+UPDATE category SET category_name = '凉菜🥙' WHERE id = 6;
+UPDATE category SET category_name = '凉拌菜🥗' WHERE id = 7;
+UPDATE category SET category_name = '黄焖鸡🐣' WHERE id = 8;
+UPDATE category SET category_name = '糕点🧀' WHERE id = 9;
+UPDATE category SET category_name = '零食甜点🍭' WHERE id = 10;
+UPDATE category SET category_name = '鲜花🌸' WHERE id = 11;
