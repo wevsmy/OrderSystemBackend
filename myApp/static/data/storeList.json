@@ -1,0 +1,130 @@
+{
+  "code": 200,
+  "msg": "Get StoreList Succeeded!",
+  "data": {
+    "storeList": [
+      {
+        "storeId": 2,
+        "storeName": "竹林香米线",
+        "storeImgUrl": "uploadFile/006fVSiZgy1fremmk8mmmj30u00twq8c.jpg",
+        "publicMsg": "这是一碗蓝朋友剥好的小龙虾",
+        "actives": [
+          {
+            "activeId": 1,
+            "acticeText": "满20减19；满200减199；满1000减999；"
+          },
+          {
+            "activeId": 2,
+            "acticeText": "本店新用户立减1元"
+          },
+          {
+            "activeId": 3,
+            "acticeText": "折扣商品9折起"
+          }
+        ]
+      },
+      {
+        "storeId": 3,
+        "storeName": "干锅牛蛙",
+        "storeImgUrl": "uploadFile/006fVSiZgy1fsp0pmgy9sj30u00u0jza.jpg",
+        "publicMsg": "这是一碗蓝朋友剥好的小龙虾",
+        "actives": [
+          {
+            "activeId": 1,
+            "acticeText": "满20减19；满200减199；满1000减999；"
+          },
+          {
+            "activeId": 2,
+            "acticeText": "本店新用户立减1元"
+          },
+          {
+            "activeId": 3,
+            "acticeText": "折扣商品9折起"
+          }
+        ]
+      },
+      {
+        "storeId": 4,
+        "storeName": "黄焖鸡米饭",
+        "storeImgUrl": "uploadFile/006fVSiZgy1fssio2es4dj30u00u0n34.jpg",
+        "score": 4.4,
+        "saleMonth": 835,
+        "publicMsg": "这是一碗蓝朋友剥好的小龙虾",
+        "actives": [
+          {
+            "activeId": 1,
+            "acticeText": "满20减19；满200减199；满1000减999；"
+          },
+          {
+            "activeId": 2,
+            "acticeText": "本店新用户立减1元"
+          },
+          {
+            "activeId": 3,
+            "acticeText": "折扣商品9折起"
+          }
+        ]
+      },
+      {
+        "storeId": 5,
+        "storeName": "西祠虾涮",
+        "storeImgUrl": "uploadFile/006fVSiZgy1fst0ynushyj30u00u041c.jpg",
+        "publicMsg": "这是一碗蓝朋友剥好的小龙虾",
+        "actives": [
+          {
+            "activeId": 1,
+            "acticeText": "满20减19；满200减199；满1000减999；"
+          },
+          {
+            "activeId": 2,
+            "acticeText": "本店新用户立减1元"
+          },
+          {
+            "activeId": 3,
+            "acticeText": "折扣商品9折起"
+          }
+        ]
+      },
+      {
+        "storeId": 6,
+        "storeName": "肯德鸭",
+        "storeImgUrl": "uploadFile/HTB1cnIlBntYBeNjy1Xdq6xXyVXay.jpg",
+        "publicMsg": "这是一碗蓝朋友剥好的小龙虾",
+        "actives": [
+          {
+            "activeId": 1,
+            "acticeText": "满20减19；满200减199；满1000减999；"
+          },
+          {
+            "activeId": 2,
+            "acticeText": "本店新用户立减1元"
+          },
+          {
+            "activeId": 3,
+            "acticeText": "折扣商品9折起"
+          }
+        ]
+      },
+      {
+        "storeId": 7,
+        "storeName": "叫只鸡",
+        "storeImgUrl": "uploadFile/006fVSiZgy1fsp0pqj7pnj30ja0jbdju.jpg",
+        "publicMsg": "这是一碗蓝朋友剥好的小龙虾",
+        "actives": [
+          {
+            "activeId": 1,
+            "acticeText": "满20减19；满200减199；满1000减999；"
+          },
+          {
+            "activeId": 2,
+            "acticeText": "本店新用户立减1元"
+          },
+          {
+            "activeId": 3,
+            "acticeText": "折扣商品9折起"
+          }
+        ]
+      }
+    ]
+  }
+}

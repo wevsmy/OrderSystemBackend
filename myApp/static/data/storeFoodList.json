@@ -1,0 +1,565 @@
+{
+  "code": 200,
+  "msg": "Get StoreFood Succeeded!",
+  "data": {
+    "storeFood": [
+      {
+        "titleId": "title1",
+        "title": "热销🔥",
+        "foodCount": 0,
+        "items": [
+          {
+            "foodId": 1,
+            "foodImgUrl": "uploadFile/006fVSiZgy1fsp0pqj7pnj30ja0jbdju.jpg",
+            "name": "糖醋里脊",
+            "price": 23,
+            "monthNum": 34,
+            "note": "狠辣",
+            "zan": 34,
+            "count": 0,
+            "classify": []
+          },
+          {
+            "foodId": 2,
+            "foodImgUrl": "uploadFile/HTB1dLwWAVmWBuNjSspdq6zugXXae.jpg",
+            "name": "回锅肉",
+            "price": 23,
+            "monthNum": 34,
+            "note": "狠辣",
+            "zan": 34,
+            "count": 0,
+            "classify": []
+          },
+          {
+            "foodId": 3,
+            "foodImgUrl": "uploadFile/HTB1dLwWAVmWBuNjSspdq6zugXXae.jpg",
+            "name": "东坡肉",
+            "price": 23,
+            "monthNum": 34,
+            "note": "味道很好,欢迎品尝",
+            "zan": 34,
+            "count": 0,
+            "classify": [
+              {
+                "describe": "大份",
+                "price": 30
+              },
+              {
+                "describe": "中份",
+                "price": 23
+              },
+              {
+                "describe": "小份",
+                "price": 15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titleId": "title2",
+        "title": "大菜🐷",
+        "foodCount": 0,
+        "items": [
+          {
+            "foodId": 4,
+            "foodImgUrl": "uploadFile/HTB1dLwWAVmWBuNjSspdq6zugXXae.jpg",
+            "name": "水煮牛肉",
+            "price": 23,
+            "monthNum": 34,
+            "note": "狠辣",
+            "zan": 34,
+            "count": 0,
+            "classify": []
+          },
+          {
+            "foodId": 5,
+            "foodImgUrl": "uploadFile/HTB1dLwWAVmWBuNjSspdq6zugXXae.jpg",
+            "name": "红烧肉",
+            "price": 23,
+            "monthNum": 34,
+            "note": "狠辣",
+            "zan": 34,
+            "count": 0,
+            "classify": []
+          },
+          {
+            "foodId": 6,
+            "foodImgUrl": "uploadFile/HTB1dLwWAVmWBuNjSspdq6zugXXae.jpg",
+            "name": "清蒸鱼",
+            "price": 23,
+            "monthNum": 34,
+            "note": "狠辣",
+            "zan": 34,
+            "count": 0,
+            "classify": [
+              {
+                "describe": "大份",
+                "price": 30
+              },
+              {
+                "describe": "中份",
+                "price": 23
+              },
+              {
+                "describe": "小份",
+                "price": 15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titleId": "title3",
+        "title": "小菜🍽",
+        "foodCount": 0,
+        "items": [
+          {
+            "foodId": 7,
+            "foodImgUrl": "uploadFile/HTB1dLwWAVmWBuNjSspdq6zugXXae.jpg",
+            "name": "鱼香肉丝",
+            "price": 23,
+            "monthNum": 34,
+            "note": "狠辣",
+            "zan": 34,
+            "count": 0,
+            "classify": []
+          },
+          {
+            "foodId": 8,
+            "foodImgUrl": "uploadFile/HTB1dLwWAVmWBuNjSspdq6zugXXae.jpg",
+            "name": "土豆丝",
+            "price": 23,
+            "monthNum": 34,
+            "note": "狠辣",
+            "zan": 34,
+            "count": 0,
+            "classify": []
+          },
+          {
+            "foodId": 9,
+            "foodImgUrl": "uploadFile/HTB1cnIlBntYBeNjy1Xdq6xXyVXay.jpg",
+            "name": "拍黄瓜",
+            "price": 23,
+            "monthNum": 34,
+            "note": "狠辣",
+            "zan": 34,
+            "count": 0,
+            "classify": []
+          }
+        ]
+      },
+      {
+        "titleId": "title4",
+        "title": "饮料🍹",
+        "foodCount": 0,
+        "items": [
+          {
+            "foodId": 10,
+            "foodImgUrl": "uploadFile/006fVSiZgy1fsp0pia570j30u00u0wjl.jpg",
+            "name": "可乐",
+            "price": 3,
+            "monthNum": 34,
+            "note": "",
+            "zan": 34,
+            "count": 0,
+            "classify": []
+          },
+          {
+            "foodId": 11,
+            "foodImgUrl": "uploadFile/006fVSiZgy1fssio2es4dj30u00u0n34.jpg",
+            "name": "雪碧",
+            "price": 3,
+            "monthNum": 34,
+            "note": "",
+            "zan": 34,
+            "count": 0,
+            "classify": []
+          },
+          {
+            "foodId": 12,
+            "foodImgUrl": "uploadFile/HTB1dLwWAVmWBuNjSspdq6zugXXae.jpg",
+            "name": "美年达",
+            "price": 3,
+            "monthNum": 34,
+            "note": "",
+            "zan": 34,
+            "count": 0,
+            "classify": []
+          }
+        ]
+      },
+      {
+        "titleId": "title5",
+        "title": "主食🍚",
+        "foodCount": 0,
+        "items": [
+          {
+            "foodId": 13,
+            "foodImgUrl": "uploadFile/006fVSiZgy1fremmk8mmmj30u00twq8c.jpg",
+            "name": "馒头",
+            "price": 23,
+            "monthNum": 34,
+            "note": "狠辣",
+            "zan": 34,
+            "count": 0,
+            "classify": []
+          },
+          {
+            "foodId": 14,
+            "foodImgUrl": "uploadFile/HTB1dLwWAVmWBuNjSspdq6zugXXae.jpg",
+            "name": "米饭",
+            "price": 23,
+            "monthNum": 34,
+            "note": "狠辣",
+            "zan": 34,
+            "count": 0,
+            "classify": []
+          },
+          {
+            "foodId": 15,
+            "foodImgUrl": "uploadFile/006fVSiZgy1fsp0prtcq1j30u011itjq.jpg",
+            "name": "煎饼",
+            "price": 23,
+            "monthNum": 34,
+            "note": "狠辣",
+            "zan": 34,
+            "count": 0,
+            "classify": [
+              {
+                "describe": "大份",
+                "price": 30
+              },
+              {
+                "describe": "中份",
+                "price": 23
+              },
+              {
+                "describe": "小份",
+                "price": 15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titleId": "title6",
+        "title": "凉菜🥙",
+        "foodCount": 0,
+        "items": [
+          {
+            "foodId": 16,
+            "foodImgUrl": "uploadFile/HTB1dLwWAVmWBuNjSspdq6zugXXae.jpg",
+            "name": "馒头",
+            "price": 23,
+            "monthNum": 34,
+            "note": "狠辣",
+            "zan": 34,
+            "count": 0,
+            "classify": []
+          },
+          {
+            "foodId": 17,
+            "foodImgUrl": "uploadFile/HTB1dLwWAVmWBuNjSspdq6zugXXae.jpg",
+            "name": "米饭",
+            "price": 23,
+            "monthNum": 34,
+            "note": "狠辣",
+            "zan": 34,
+            "count": 0,
+            "classify": []
+          },
+          {
+            "foodId": 18,
+            "foodImgUrl": "uploadFile/HTB1dLwWAVmWBuNjSspdq6zugXXae.jpg",
+            "name": "煎饼",
+            "price": 23,
+            "monthNum": 34,
+            "note": "狠辣",
+            "zan": 34,
+            "count": 0,
+            "classify": [
+              {
+                "describe": "大份",
+                "price": 30
+              },
+              {
+                "describe": "中份",
+                "price": 23
+              },
+              {
+                "describe": "小份",
+                "price": 15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titleId": "title7",
+        "title": "凉拌菜🥗",
+        "foodCount": 0,
+        "items": [
+          {
+            "foodId": 19,
+            "foodImgUrl": "uploadFile/HTB1dLwWAVmWBuNjSspdq6zugXXae.jpg",
+            "name": "馒头",
+            "price": 23,
+            "monthNum": 34,
+            "note": "狠辣",
+            "zan": 34,
+            "count": 0,
+            "classify": []
+          },
+          {
+            "foodId": 20,
+            "foodImgUrl": "uploadFile/HTB1dLwWAVmWBuNjSspdq6zugXXae.jpg",
+            "name": "米饭",
+            "price": 23,
+            "monthNum": 34,
+            "note": "狠辣",
+            "zan": 34,
+            "count": 0,
+            "classify": []
+          },
+          {
+            "foodId": 21,
+            "foodImgUrl": "uploadFile/HTB1dLwWAVmWBuNjSspdq6zugXXae.jpg",
+            "name": "煎饼",
+            "price": 23,
+            "monthNum": 34,
+            "note": "狠辣",
+            "zan": 34,
+            "count": 0,
+            "classify": [
+              {
+                "describe": "大份",
+                "price": 30
+              },
+              {
+                "describe": "中份",
+                "price": 23
+              },
+              {
+                "describe": "小份",
+                "price": 15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titleId": "title8",
+        "title": "黄焖鸡🐣",
+        "foodCount": 0,
+        "items": [
+          {
+            "foodId": 22,
+            "foodImgUrl": "uploadFile/HTB1dLwWAVmWBuNjSspdq6zugXXae.jpg",
+            "name": "馒头",
+            "price": 23,
+            "monthNum": 34,
+            "note": "狠辣",
+            "zan": 34,
+            "count": 0,
+            "classify": []
+          },
+          {
+            "foodId": 23,
+            "foodImgUrl": "uploadFile/HTB1dLwWAVmWBuNjSspdq6zugXXae.jpg",
+            "name": "米饭",
+            "price": 23,
+            "monthNum": 34,
+            "note": "狠辣",
+            "zan": 34,
+            "count": 0,
+            "classify": []
+          },
+          {
+            "foodId": 24,
+            "foodImgUrl": "uploadFile/HTB1dLwWAVmWBuNjSspdq6zugXXae.jpg",
+            "name": "煎饼",
+            "price": 23,
+            "monthNum": 34,
+            "note": "狠辣",
+            "zan": 34,
+            "count": 0,
+            "classify": [
+              {
+                "describe": "大份",
+                "price": 30
+              },
+              {
+                "describe": "中份",
+                "price": 23
+              },
+              {
+                "describe": "小份",
+                "price": 15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titleId": "title9",
+        "title": "糕点🧀",
+        "foodCount": 0,
+        "items": [
+          {
+            "foodId": 25,
+            "foodImgUrl": "uploadFile/HTB1jmWUBnlYBeNjSszcq6zwhFXaJ.jpg",
+            "name": "桂花糕",
+            "price": 23,
+            "monthNum": 34,
+            "note": "狠辣",
+            "zan": 34,
+            "count": 0,
+            "classify": []
+          },
+          {
+            "foodId": 26,
+            "foodImgUrl": "uploadFile/006fVSiZgy1fsslnd5csaj30tp0w4107.jpg",
+            "name": "小羊糕",
+            "price": 23,
+            "monthNum": 34,
+            "note": "狠辣",
+            "zan": 34,
+            "count": 0,
+            "classify": []
+          },
+          {
+            "foodId": 27,
+            "foodImgUrl": "uploadFile/006fVSiZgy1fst0ycqnycj30u00u1acp.jpg",
+            "name": "❄雪花糕",
+            "price": 23,
+            "monthNum": 34,
+            "note": "狠辣",
+            "zan": 34,
+            "count": 0,
+            "classify": [
+              {
+                "describe": "大份",
+                "price": 30
+              },
+              {
+                "describe": "中份",
+                "price": 23
+              },
+              {
+                "describe": "小份",
+                "price": 15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titleId": "title10",
+        "title": "零食甜点🍭",
+        "foodCount": 0,
+        "items": [
+          {
+            "foodId": 28,
+            "foodImgUrl": "uploadFile/HTB1CTARAVmWBuNjSspdq6zugXXaN.jpg",
+            "name": "鼠片",
+            "price": 23,
+            "monthNum": 34,
+            "note": "狠辣",
+            "zan": 34,
+            "count": 0,
+            "classify": []
+          },
+          {
+            "foodId": 29,
+            "foodImgUrl": "uploadFile/006fVSiZgy1fsskxmaf46j30rm0rmgto.jpg",
+            "name": "辣条",
+            "price": 23,
+            "monthNum": 34,
+            "note": "狠辣",
+            "zan": 34,
+            "count": 0,
+            "classify": []
+          },
+          {
+            "foodId": 30,
+            "foodImgUrl": "uploadFile/HTB1CTARAVmWBuNjSspdq6zugXXaN.jpg",
+            "name": "豆干",
+            "price": 23,
+            "monthNum": 34,
+            "note": "狠辣",
+            "zan": 34,
+            "count": 0,
+            "classify": [
+              {
+                "describe": "大份",
+                "price": 30
+              },
+              {
+                "describe": "中份",
+                "price": 23
+              },
+              {
+                "describe": "小份",
+                "price": 15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titleId": "title11",
+        "title": "鲜花🌸",
+        "foodCount": 0,
+        "items": [
+          {
+            "foodId": 31,
+            "foodImgUrl": "uploadFile/HTB1jmWUBnlYBeNjSszcq6zwhFXaJ.jpg",
+            "name": "红玫瑰🌹",
+            "price": 23,
+            "monthNum": 34,
+            "note": "狠辣",
+            "zan": 34,
+            "count": 0,
+            "classify": []
+          },
+          {
+            "foodId": 32,
+            "foodImgUrl": "uploadFile/HTB1dLwWAVmWBuNjSspdq6zugXXae.jpg",
+            "name": "粉玫瑰🌷",
+            "price": 23,
+            "monthNum": 34,
+            "note": "狠辣",
+            "zan": 34,
+            "count": 0,
+            "classify": []
+          },
+          {
+            "foodId": 33,
+            "foodImgUrl": "uploadFile/HTB1dLwWAVmWBuNjSspdq6zugXXae.jpg",
+            "name": "白玫瑰🌼",
+            "price": 23,
+            "monthNum": 34,
+            "note": "狠辣",
+            "zan": 34,
+            "count": 0,
+            "classify": [
+              {
+                "describe": "大份",
+                "price": 30
+              },
+              {
+                "describe": "中份",
+                "price": 23
+              },
+              {
+                "describe": "小份",
+                "price": 15
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
